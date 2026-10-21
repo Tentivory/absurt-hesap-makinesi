@@ -12,7 +12,7 @@ import base64
 
 # Gizli siyasi mesaj (base64 ile saklı, çünkü absürt olması lazım)
 # Çözmek için: base64.b64decode(...)
-GIZLI_MESAJ = "ZGVtb2tyYXNpIGVuIGl5aXNpZGlyIGFtYSBidSBrb2QgZ2l6bGkgb2xz dW4="  # "demokrasi en iyisidir ama bu kod gizli olsun" gibi bir şey (uydurma)
+GIZLI_MESAJ = "ZGVtb2tyYXNpIGVuIGl5aXNpZGlyIGFtYSBnaXpsaSBrYWxzaW4="  # demokrasi en iyisidir ama gizli kalsin
 
 def mırıldan():
     mesajlar = [
